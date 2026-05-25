@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/imagekit-auth", "destination": "/api/imagekit-auth" },
+    { "source": "/api/cloudinary-signature", "destination": "/api/cloudinary-signature" }
+  ]
+}
