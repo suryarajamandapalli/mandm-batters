@@ -1,0 +1,1 @@
+import{e as r,p as s}from"./index-Jp-QfVm4.js";import{f as t}from"./format-BkHSUBJ4.js";const y=r()(s(e=>({selectedDate:t(new Date,"yyyy-MM-dd"),setSelectedDate:a=>e({selectedDate:a}),resetDate:()=>e({selectedDate:t(new Date,"yyyy-MM-dd")})}),{name:"rhb-admin-filter"}));export{y as u};
