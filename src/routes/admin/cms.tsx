@@ -138,7 +138,7 @@ function CMSPage() {
                   <input 
                     defaultValue={settings.heroHeading} 
                     onChange={(e) => setHeroHeadingInput(e.target.value)}
-                    placeholder="e.g. Renuka's H2 Batters"
+                    placeholder="e.g. M and M Batters"
                     className="w-full border rounded-xl p-3.5 text-sm focus:ring-4 focus:ring-orange/10 focus:border-orange outline-none transition-all" 
                   />
                 </div>
@@ -447,7 +447,7 @@ function CMSPage() {
                   <input
                     defaultValue={settings.footerCopyright}
                     onChange={(e) => setFooterCopy(e.target.value)}
-                    placeholder="e.g. Renuka's H2 Batters. All rights reserved."
+                    placeholder="e.g. M and M Batters. All rights reserved."
                     className="w-full border rounded-xl p-3 text-sm focus:ring-2 focus:ring-orange/20 focus:border-orange outline-none"
                   />
                 </div>

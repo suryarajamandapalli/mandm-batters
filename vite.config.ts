@@ -6,7 +6,10 @@ import crypto from "crypto";
 export default defineLovableConfig({
   cloudflare: false,
   tanstackStart: {
-    ssr: false
+    ssr: true,
+    server: {
+      preset: 'vercel'
+    }
   },
   vite: {
     plugins: [

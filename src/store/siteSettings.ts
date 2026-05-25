@@ -198,11 +198,11 @@ onValue(settingsRef, (snapshot) => {
     }
 
     // Auto-update heading / copyright in RTDB if it contains "Renuka" or "H2 Batters"
-    if (heroHeading.includes("Renuka") || heroHeading.includes("H2 Batters")) {
+    if (heroHeading.includes("Renuka") || heroHeading.includes("Renukas") || heroHeading.includes("H2 Batters")) {
       heroHeading = "M and M Batters";
       needsUpdate = true;
     }
-    if (footerCopyright.includes("Renuka") || footerCopyright.includes("H2 Batters")) {
+    if (footerCopyright.includes("Renuka") || footerCopyright.includes("Renukas") || footerCopyright.includes("H2 Batters")) {
       footerCopyright = "M and M Batters. All rights reserved.";
       needsUpdate = true;
     }
@@ -218,7 +218,7 @@ onValue(settingsRef, (snapshot) => {
       contactPhone = "+91 97035 44888 or +91 78935 56888";
       needsUpdate = true;
     }
-    if (!contactEmail || contactEmail === "hello@mandmbatters.in" || contactEmail.includes("hello@mandmbatters") || contactEmail.includes("renuka")) {
+    if (!contactEmail || contactEmail === "hello@mandmbatters.in" || contactEmail.includes("hello@mandmbatters") || contactEmail.includes("renuka") || contactEmail.includes("renukas")) {
       contactEmail = "mandmcloudkitchen@gmail.com";
       needsUpdate = true;
     }

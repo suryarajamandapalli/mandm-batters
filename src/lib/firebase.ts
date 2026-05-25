@@ -1,5 +1,4 @@
-// Firebase Web SDK Initialization
-// Project: h2battersrjy (Renuka's H2 Batters)
+// Project: mandm-batters (M and M Batters)
 
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
